@@ -2908,7 +2908,7 @@ a.skuye:hover {
   color: var(--color-fourty) !important;
 }
 .second-drop{
-  background-color: var(--background-fourtyfour);
+  background-color: var(--background-fiftyseven);
 }
 .second-drop:hover , .first-g-span:hover{
   background-color: #19191b !important;
@@ -2964,6 +2964,9 @@ a.skuye:hover {
 .chance-inp::placeholder{
   color: var(--color-black) !important;
   opacity: 0.7 !important;
+}
+.first-g-span{
+  background-color: var(--background-fiftyseven) !important;
 }
 .chance-btn{
   background: var(--background-fiftyfour) !important;

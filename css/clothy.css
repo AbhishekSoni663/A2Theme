@@ -339,7 +339,7 @@ i.fa-solid.fa-store {
   color: var(--color-fourty) !important;
 }
 .second-drop{
-  background-color: var(--background-fourtyfour);
+  background-color: var(--background-fiftyseven);
 }
 .second-drop:hover , .first-g-span:hover{
   background-color: #19191b !important;
@@ -358,7 +358,7 @@ i.fa-solid.fa-store {
   color: var(--color-thirtyeight) !important;
 }
 .first-g-span{
-  background-color: var(--background-fourtyfour) !important;
+  background-color: var(--background-fiftyseven) !important;
   color: var(--color-white) !important;
 }
 

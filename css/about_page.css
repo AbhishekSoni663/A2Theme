@@ -1,6 +1,4 @@
-*{
-    /* border: 1px solid red; */
-}
+
 body {
     font-family: var(--Jost-sans-serif) !important;
 }
@@ -96,4 +94,13 @@ i.fa-solid.fa-store {
   }
 
 
-  
+  .second-drop{
+    background-color: var(--background-fiftyseven) !important;
+  }
+  .second-drop:hover , .first-g-span:hover{
+    background-color: #19191b !important;
+    color: white;
+  }
+  .first-g-span{
+    background-color: ;
+  }

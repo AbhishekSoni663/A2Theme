@@ -105,7 +105,7 @@
                                                     class="form-select shadow-none off-select1 border-0 bg-transparent">
                                                     <option selected>All Category</option>
                                                 </select>
-                                                <span class="input-group-text border-0">
+                                                <span class="input-group-text first-g-span rounded-0 border-0">
                                                     <i class="bi bi-search"></i></span>
                                             </div>
                                             <div class="d-flex gap-3 head_nav2">
@@ -802,7 +802,31 @@
     <!-- Modal Bag Icon End -->
 
     <script src="https://kit.fontawesome.com/fd34e350c0.js" crossorigin="anonymous"></script>
+<!-- Header dropdow btn Categories Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var dropdownButton = document.getElementById('dropdownMenuButton');
+      var dropdownMenu = document.querySelector('.drp-menu1');
 
+      dropdownButton.addEventListener('click', function (event) {
+        event.stopPropagation();
+        dropdownMenu.classList.toggle('custom-show');
+        dropdownMenu.classList.toggle('custom-hide');
+      });
+
+      document.addEventListener('click', function (event) {
+        if (!dropdownButton.contains(event.target) && dropdownMenu.classList.contains('custom-show')) {
+          dropdownMenu.classList.remove('custom-show');
+          dropdownMenu.classList.add('custom-hide');
+        }
+      });
+
+      dropdownMenu.addEventListener('click', function (event) {
+        event.stopPropagation();
+      });
+    });
+  </script>
+  <!--  -->
 </body>
 
 </html>
