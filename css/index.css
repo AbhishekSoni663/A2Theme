@@ -566,10 +566,10 @@ color: var(--color-two);
  
   opacity:2 !important;
 }.left_icon {
-  background: var( --background-eleven);
+  background: var(--background-fiftysix);
   border-radius: 50%;
   padding: 10px 12px;
-  color: var(--color-fifteen);
+  color: var(--color-black);
 }
 .banner__buttons a:hover   {
   background-color: var(--background-thirtynine)!important;
